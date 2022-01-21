@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.introContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40vh;
+	background-color: #000;
+}
+
+.intro > h1 {
+	color: white;
+	font-family: "Raleway", sans-serif;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title > p {
+	color: red;
+	font-family: "Raleway", sans-serif;
+}
+
+.projectContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	background-color: #45567d;
+	font-family: "Raleway", sans-serif;
+	color: white;
+}
