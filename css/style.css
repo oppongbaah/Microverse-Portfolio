@@ -26,14 +26,47 @@
 	color: red;
 	font-family: "Raleway", sans-serif;
 }
-
-.projectContainer {
+.navbar{
+	background-color: #BE3144;
+}
+#project {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 50vh;
+	height: auto;
 	background-color: #45567d;
 	font-family: "Raleway", sans-serif;
+}
+#project h3{
 	color: white;
+	margin-top: 150px;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	border-bottom: solid white;
+	text-align: center;
+}
+.card{
+	height: 360px !important;
+	border: #000;
+}
+.card-footer{
+	background-color: #303841;
+}
+.card-footer p{
+	font-size:16px;
+	font-weight: 500;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+}
+
+.btn{
+	justify-content: center;
+	align-items: center;
+}
+.btn a{
+	color: white;
+	text-align: center;
 }
